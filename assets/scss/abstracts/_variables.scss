@@ -1,0 +1,38 @@
+$title: #000000;
+$label: #565656;
+$black: #333333;
+$yellows: #ffd233;
+$white: #ffffff;
+$gray: #999999;
+$primary: #0a4595;
+$light-blue: #e7f2fb;
+// $blue: #124c9a;
+
+$robotoCondensed: "Roboto Condensed", sans-serif;
+
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 33px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 42px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  h6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

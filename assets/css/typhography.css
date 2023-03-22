@@ -1,0 +1,10 @@
+@font-face {
+  font-family: robotoCondensed-sans;
+  src: url(../../fonts/RobotoCondensed-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: robotoCondensed-bold;
+  src: url(../../fonts/RobotoCondensed-Bold.ttf);
+  font-weight: 600;
+}/*# sourceMappingURL=typhography.css.map */

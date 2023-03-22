@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pe3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" hrf="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="navigation">
+        <div class="container ps-0 pe-0 d-md-flex">
+          <div class="sub-link col-md-4 ps-0 d-none d-md-block">
+            <ul class="d-flex">
+              <li>
+                <a href="#">SUPA</a>
+              </li>
+
+              <li>
+                <a href="#">Youreverydayfish</a>
+              </li>
+
+              <li>
+                <a href="#">VietFish</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-md-4 col-12 d-flex justify-content-center px-2 px-lg-0 mb-3"
+          >
+            <ul class="list-icon d-flex">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="log-link col-md-4 col-12 pe-0 d-flex justify-content-end">
+            <ul class="">
+              <li class="dropdown quick-login">
+                <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+              </li>
+
+              <li>
+                <a href="http://vasep.com.vn"
+                  ><img src="./assets/img/vi-VN.png" /> Vietnamese</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <header id="header">
+        <div id="mainHeaderInner" class="container">
+          <div class="sidenav-header-logo">
+            <a href="/" class="brand d-flex flex-r"
+              ><img
+                id="imgLogo"
+                class="img-responsive"
+                src="./assets/img/vasep-logo.png"
+                alt="vasep logo"
+              />
+
+              <h2>Vietnam Association of Seafood Exporters and Producers</h2>
+            </a>
+          </div>
+
+          <div id="navbar-top-wrapper" class="d-flex">
+            <div class="col-md-2 ps-0 logo pe-4">
+              <a href="/" class="brand"
+                ><img
+                  id="imgLogo"
+                  class="img-responsive"
+                  src="./assets/img/vasep-logo.png"
+                  alt="vasep logo"
+              /></a>
+            </div>
+
+            <div class="col-md-10 pe-0 topnav text-center ps-4">
+              <a href="/"
+                ><h2 id="unit-name-vi">
+                  Vietnam Association of Seafood Exporters and Producers
+                </h2>
+
+                <h3 id="unit-name-en" class="d-none d-lg-block">
+                  Seafood from Viet Nam
+                </h3></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="main-menu navbar-collapse d-none d-xl-block sticky-top"
+          id="navbarSupportedContent"
+        >
+          <div class="container">
+            <ul class="navbar-nav d-lg-flex flex-row me-auto">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><i class="fa fa-home"></i
+                ></a>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#"
+                  >Why buy seafood <span class="sub-menu">from Vietnam</span></a
+                >
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item">Food safety</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Certifications</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Available fish sources</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Export potentials</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Fishery Profile</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#"
+                  >Key Seafood sectors
+                  <span class="sub-menu">in Vietnam</span></a
+                >
+
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="nav-link" href="#">Shrimp</a>
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Sector profile</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">News</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Suppliers</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Statistic</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a
+                      class="nav-link"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      href=""
+                      >Pangasius</a
+                    >
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Sector profile</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">News</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="/suppliers/type/2"
+                          >Suppliers</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/statistics/seafood-export-statistics?key=&amp;sp=1224"
+                          >Statistic</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a
+                      class="nav-link"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      href=""
+                      >Tuna</a
+                    >
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Sector profile</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">News</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Suppliers</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Statistic</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="nav-link" href="#">Other marine products</a>
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Sector profile</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">News</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Suppliers</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Statistic</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="nav-link" href="#">Total seafood trade</a>
+
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">News</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Statistic</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#">Reports</a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Quarterly report on Vietnam seafood exports</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Report on Vietnam seafood products</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Report on seafood markets</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#">Regulations</a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#"
+                      >Ministry of Agriculture and Rural Development</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Government and other ministries</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#">Combat IUU Fishing</a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Vietnam’s action compaign</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Vietnam legal documents</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      VASEP's IUU Steering Committee</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#"
+                      >List of Vietnam companies commiting to combat IUU</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Press Statement to combat IUU</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#"
+                      >White Book on combating IUU fishing in Vietnam</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">IUU vessel list</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#"
+                  >How we can <span class="sub-menu">help you</span></a
+                >
+
+                <ul class="dropdown-menu">
+                  <li><a href="#">Publications</a></li>
+
+                  <li><a href="#">Business meeting</a></li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Vietfish Exhibition</a>
+                  </li>
+
+                  <li><a href="#">Advocacy</a></li>
+
+                  <li><a href="#">Training</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Events</a>
+              </li>
+
+              <li class="dropdown">
+                <a class="nav-link" href="#">About VASEP</a>
+
+                <ul class="dropdown-menu">
+                  <li><a href="#">VASEP Introduction</a></li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Organization &amp; Charter</a
+                    >
+                  </li>
+
+                  <li><a href="#">Executive Board</a></li>
+
+                  <li>
+                    <a href="#" class="dropdown-item"
+                      >Committees &amp; VASEP offices</a
+                    >
+                  </li>
+
+                  <li><a href="#">Editorial Board</a></li>
+
+                  <li>
+                    <a href="#t">VASEP - 15 years of development</a>
+                  </li>
+                </ul>
+              </li>
+
+              
+
+              <li class="toggle-menu-icon border-0">
+                <a class="navbar-toggle toggle-menu">
+                  <span>
+                    <i class="fa-solid fa-bars"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li class="container-input">
+                <span class="icon"><i class="fa fa-search"></i></span>
+
+                <input
+                  id="search-box"
+                  class="d-block"
+                  type="text"
+                  placeholder="Keyword..."
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container px-0">
+          <div class="xbox box-member mb-5 p-4">
+            <div class="img-memhead">
+              <img src="./assets/img/memgold.png" alt="" />
+            </div>
+
+            <div class="xheader mb-4 px-4">
+              <div class="row d-md-flex justify-content-between">
+                <h3 class="p-0 m-0">find your suppliers</h3>
+
+                <a class="linkViewAll" href="#"
+                  >View All <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="xcontent">
+              <div id="" onkeypress="" class="mb-4">
+                <div class="row form-group">
+                  <div class="col-md-6 col-12 d-md-flex flex-wrap">
+                    <div class="radio inline">
+                      <label for="dotall">
+                        <input
+                          id="dotall"
+                          type="radio"
+                          name="title-search"
+                          value="_keyword"
+                          checked="checked"
+                        />
+                        All
+                      </label>
+                    </div>
+
+                    <div class="radio inline">
+                      <label for="dotcpn">
+                        <input
+                          id="dotcpn"
+                          type="radio"
+                          name="title-search"
+                          value="_tendoanhnghiep"
+                        />
+                        Company's name
+                      </label>
+                    </div>
+
+                    <div class="radio inline">
+                      <label for="dottrade">
+                        <input
+                          id="dottrade"
+                          type="radio"
+                          name="title-search"
+                          value="_tenthuongmai"
+                        />
+                        Tradenames
+                      </label>
+                    </div>
+
+                    <div class="radio inline">
+                      <label for="dotcity">
+                        <input
+                          id="dotcity"
+                          type="radio"
+                          name="title-search"
+                          value="_diachi"
+                        />
+                        Province/City
+                      </label>
+                    </div>
+
+                    <div class="radio inline">
+                      <label for="doteucode">
+                        <input
+                          id="doteucode"
+                          type="radio"
+                          name="title-search"
+                          value="_eucode"
+                        />
+                        EU Code
+                      </label>
+                    </div>
+
+                    <div class="radio inline">
+                      <label for="cotcertif">
+                        <input
+                          id="cotcertif"
+                          type="radio"
+                          name="title-search"
+                          value="_chungchi"
+                        />
+                        Certificate
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-12">
+                    <div
+                      class="input-group group-search-index align-items-center"
+                    >
+                      <input
+                        name=""
+                        type="text"
+                        id=""
+                        class="form-control"
+                        placeholder="Enter Keywords..."
+                      />
+
+                      <a id="" class="input-group-addon" href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i> SEARCH</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <ul class="xbrand-logo d-flex">
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo.jpg"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo1.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo10.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img//brand-logo2.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo3.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo4.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo9.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo8.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo7.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo6.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#"
+                      ><img
+                        src="./assets/img/logo cty tnhh uv-việt nam.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+
+                  <li class="xbrand-logo__item">
+                    <a href="#" class="xbrand-logo__link"
+                      ><img
+                        class="xbrand-logo__logo"
+                        src="./assets/img/brand-logo5.png"
+                        alt="brand-logo"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- <section id="main-section">
+        <div class="module">
+          <div class="container mb-5">
+            <div class="row g-0 breadcrumb d-block m-0 border-0">
+              <a href="#" class="home p-0"><i class="fa fa-home mx-2"></i> /</a>
+
+              <span>
+                <a href="#"
+                  ><span class="breadcrumb-item p-1">Combat IUU Fishing</span> /
+                </a>
+              </span>
+            </div>
+
+            <div class="col-12 d-block d-md-flex">
+              <div class="col-md-9 col-12 ps-0">
+                <div class="news-index">
+                  <div class="module-title">
+                    <h3 class="title m-0">Combat IUU Fishing</h3>
+                  </div>
+
+                  <div class="row hot-news py-3">
+                    <div class="col-md-6 col-12 ps-4 pe-4 pe-md-0">
+                      <div class="block-main">
+                        <div class="ximage">
+                          <a
+                            href="#"
+                            title="Tien Giang works hard on combating IUU fishing"
+                          >
+                            <img
+                              class="img-responsive img-full lazy"
+                              src="./assets/img/noimage.png"
+                              alt="Tien Giang works hard on combating IUU fishing"
+                          /></a>
+                        </div>
+
+                        <div class="xcalendar">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+
+                        <div class="title-left xmain-link">
+                          <h4>
+                            <a
+                              href="#"
+                              title="Tien Giang works hard on combating IUU fishing"
+                              >Tien Giang works hard on combating IUU fishing</a
+                            >
+                          </h4>
+
+                          <span
+                            ><p
+                              title="Authorities of the Mekong Delta province of Tien Giang have taken a wide range of measures to fight illegal, unreported and unregulated (IUU) fishing as a part of the national efforts to remove the European Commission (EC)’s ‘yellow card’ warning against Vietnam’s seafood exports."
+                            >
+                              Authorities of the Mekong Delta province of Tien
+                              Giang have taken a wide range of measures to fight
+                              illegal, unreported and unregulated (IUU) fishing
+                              as a part of the national efforts to remove the
+                              European Commission (EC)’s ‘yellow card’...
+                            </p></span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-12"></div>
+                  </div>
+
+                  <div class="row">news</div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-12 pe-0">col-md-3 col-12</div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <div class="container p-0">
+        <div class="row mb-4">
+          <div id="leftTopPane" class="p-0">
+            <div class="news">
+              <div class="sidebar-newsfeed">
+                <!-- Begin newsfeed -->
+                <div class="newsfeed-3 d-lg-flex">
+                  <div class="col-lg-6 col-12 px-2 p-lg-0 pe-lg-4">
+                    <h3 class="title-cate m-0"><a>Hot news</a></h3>
+                    <!-- Image -->
+                    <div class="image-first">
+                      <a href="#" class="img-link">
+                        <img
+                          src="./assets/img/frozen-tuna.jpg"
+                          alt="img"
+                          class="img-responsive img-full"
+                        />
+                      </a>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="item-content-text py-4 px-0">
+                      <!-- Calendar here -->
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <!-- Post title  -->
+                      <h4>
+                        <a
+                          class="img-link-news text-hot"
+                          href="#"
+                          title="Tien Giang works hard on combating IUU fishing"
+                          >Frozen tuna exports to Japan tripled</a
+                        >
+                      </h4>
+
+                      <!-- Post description -->
+                      <p title="News descriptions here">
+                        (seafood. vasep.com.vn) In January 2023, Japan was one
+                        of the few tuna import markets of Vietnam that
+                        maintained a good growth rate. Vietnam's tuna export
+                        value to this market reached nearly 2.3 million USD, up
+                        38% over the same period in 2022.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <h3 class="title-cate ps-4 m-0">
+                          <a>Latest news</a>
+                        </h3>
+                      </div>
+
+                      <div class="col-6 px-2 px-md-0 px-md-4">
+                        <div class="image-first">
+                          <a href="#" class="img-link">
+                            <img
+                              src="./assets/img/latest-news.jpg"
+                              alt="img"
+                              class="img-responsive img-full"
+                            />
+                          </a>
+                        </div>
+
+                        <div class="item-content-text py-3 mb-md-2 px-0">
+                          <div class="post-meta-elements">
+                            <div class="post-meta-date">
+                              <i class="fa-regular fa-calendar"></i>
+                              11:54 01/13/2023
+                            </div>
+                          </div>
+
+                          <h4>
+                            <a
+                              class="img-link-news text-latest"
+                              href="#"
+                              title="Tien Giang works hard on combating IUU fishing"
+                              >Frozen tuna exports to Japan tripled</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+
+                      <div class="col-6 px-2 px-md-0 px-md-4">
+                        <div class="image-first">
+                          <a href="#" class="img-link">
+                            <img
+                              src="./assets/img/latest-news2.jpg"
+                              alt="img"
+                              class="img-responsive img-full"
+                            />
+                          </a>
+                        </div>
+
+                        <div class="item-content-text py-3 mb-md-2 px-0">
+                          <div class="post-meta-elements">
+                            <div class="post-meta-date">
+                              <i class="fa-regular fa-calendar"></i>
+                              11:54 01/13/2023
+                            </div>
+                          </div>
+
+                          <h4>
+                            <a
+                              class="img-link-news text-latest"
+                              href="#"
+                              title="Tien Giang works hard on combating IUU fishing"
+                              >Ang Giang: A worthy investment for the pangasius
+                              industry</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+
+                      <div class="col-6 px-2 px-md-0 px-md-4">
+                        <div class="image-first">
+                          <a href="#" class="img-link">
+                            <img
+                              src="./assets/img/latest-news3.jpg"
+                              alt="img"
+                              class="img-responsive img-full"
+                            />
+                          </a>
+                        </div>
+
+                        <div class="item-content-text py-3 mb-md-2 px-0">
+                          <div class="post-meta-elements">
+                            <div class="post-meta-date">
+                              <i class="fa-regular fa-calendar"></i>
+                              11:54 01/13/2023
+                            </div>
+                          </div>
+
+                          <h4>
+                            <a
+                              class="img-link-news text-latest"
+                              href="#"
+                              title="Tien Giang works hard on combating IUU fishing"
+                              >Vietnam increases exports of frozen steamed tuna
+                              loin
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+
+                      <div class="col-6 px-2 px-md-0 px-md-4">
+                        <div class="image-first">
+                          <a href="#" class="img-link">
+                            <img
+                              src="./assets/img/latest-news4.jpg"
+                              alt="img"
+                              class="img-responsive img-full"
+                            />
+                          </a>
+                        </div>
+
+                        <div class="item-content-text py-3 mb-md-2 px-0">
+                          <div class="post-meta-elements">
+                            <div class="post-meta-date">
+                              <i class="fa-regular fa-calendar"></i>
+                              11:54 01/13/2023
+                            </div>
+                          </div>
+
+                          <h4>
+                            <a
+                              class="img-link-news text-latest"
+                              href="#"
+                              title="Tien Giang works hard on combating IUU fishing"
+                              >Thai Binh: Calling for investment in a calm
+                              processing</a
+                            >
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <h3 class="title-cate text-center p-0 m-0"><a>in focus</a></h3>
+              </div>
+
+              <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
+                <div class="image-first">
+                  <a href="#" class="img-link">
+                    <img
+                      src="./assets/img/vietnam-impress-seafood.jpeg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+                  </a>
+                </div>
+
+                <div class="item-content-text mb-md-2 px-0">
+                  <div class="post-meta-elements">
+                    <div class="post-meta-date m-0">
+                      <i class="fa-regular fa-calendar"></i>
+                      11:54 01/13/2023
+                    </div>
+                  </div>
+
+                  <b>
+                    <p
+                      class="img-link-news text-in-focus p-0"
+                      href="#"
+                      title="Tien Giang works hard on combating IUU fishing"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </p>
+                  </b>
+                </div>
+              </div>
+
+              <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
+                <div class="image-first">
+                  <a href="#" class="img-link">
+                    <img
+                      src="./assets/img/vietnam-impress-seafood1.jpeg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+                  </a>
+                </div>
+
+                <div class="item-content-text mb-md-2 px-0">
+                  <div class="post-meta-elements">
+                    <div class="post-meta-date m-0">
+                      <i class="fa-regular fa-calendar"></i>
+                      11:54 01/13/2023
+                    </div>
+                  </div>
+
+                  <b>
+                    <p
+                      class="img-link-news text-in-focus p-0"
+                      href="#"
+                      title="Tien Giang works hard on combating IUU fishing"
+                    >
+                      Frozen tuna exports to Japan tripled
+                    </p>
+                  </b>
+                </div>
+              </div>
+
+              <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
+                <div class="image-first">
+                  <a href="#" class="img-link">
+                    <img
+                      src="./assets/img/vietnam-impress-seafood2.jpeg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+                  </a>
+                </div>
+
+                <div class="item-content-text mb-md-2 px-0">
+                  <div class="post-meta-elements">
+                    <div class="post-meta-date m-0">
+                      <i class="fa-regular fa-calendar"></i>
+                      11:54 01/13/2023
+                    </div>
+                  </div>
+
+                  <b>
+                    <p
+                      class="img-link-news text-in-focus p-0"
+                      href="#"
+                      title="Tien Giang works hard on combating IUU fishing"
+                    >
+                      Frozen tuna exports to Japan tripled
+                    </p>
+                  </b>
+                </div>
+              </div>
+
+              <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
+                <div class="image-first">
+                  <a href="#" class="img-link">
+                    <img
+                      src="./assets/img/vietnam-impress-seafood3.jpeg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+                  </a>
+                </div>
+
+                <div class="item-content-text mb-md-2 px-0">
+                  <div class="post-meta-elements">
+                    <div class="post-meta-date m-0">
+                      <i class="fa-regular fa-calendar"></i>
+                      11:54 01/13/2023
+                    </div>
+                  </div>
+
+                  <b>
+                    <p
+                      class="img-link-news text-in-focus p-0"
+                      href="#"
+                      title="Tien Giang works hard on combating IUU fishing"
+                    >
+                      Frozen tuna exports to Japan tripled
+                    </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="middleTopPane" class="container">
+        <div class="middle-content-pane mb-4">
+          <!-- <a href="#" id="slider">
+            <img id="mainPhoto" />
+            <div class="middleSlider mb-4">
+              <img
+                class="img-responsive img-full object-fit-cover"
+                src="./assets/img/middle-banner1.png"
+                style="display: none"
+              />
+
+              <img
+                class="img-responsive img-full"
+                src="./assets/img/middle-banner2.png"
+                style="display: none"
+              />
+
+              <img
+                class="img-responsive img-full"
+                src="./assets/img/middle-banner3.png"
+                style="display: none"
+              />
+            </div>
+          </a> -->
+
+          <ul>
+            <li>
+              <a href="#" target="_blank"
+                ><img
+                  src="./assets/img/middle-banner.gif"
+                  alt="Vinh Hoan"
+                  class="img-responsive img-full"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container p-0 mb-4">
+        <div class="row">
+          <div class="col-12 col-lg-3 px-2 px-lg-0 ps-lg-0 pe-lg-4">
+            <div class="news-hot__item mb-3">
+              <h3 class="title-cate p-0 m-0"><a>shrimp</a></h3>
+
+              <div class="image-first">
+                <a href="#" class="img-link">
+                  <img
+                    src="./assets/img/shrimp.jpeg"
+                    alt="img"
+                    class="img-responsive img-full"
+                  />
+                </a>
+              </div>
+
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Minh Phu Seafood Corporation increase capital in two...
+                  </p>
+                </b>
+              </div>
+            </div>
+
+            <div class="news-hot__item mb-3">
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                </b>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 px-2 px-lg-0 ps-lg-0 pe-lg-4">
+            <div class="news-hot__item mb-3">
+              <h3 class="title-cate p-0 m-0"><a>pangasius</a></h3>
+
+              <div class="image-first">
+                <a href="#" class="img-link">
+                  <img
+                    src="./assets/img/vietnam-impress-seafood1.jpeg"
+                    alt="img"
+                    class="img-responsive img-full"
+                  />
+                </a>
+              </div>
+
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Frozen tuna exports to Japan tripled
+                  </p>
+                </b>
+              </div>
+            </div>
+
+            <div class="news-hot__item mb-3">
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Frozen tuna exports to Japan tripled
+                  </p>
+                </b>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 px-2 px-lg-0 ps-lg-0 pe-lg-4">
+            <div class="news-hot__item mb-3">
+              <h3 class="title-cate p-0 m-0"><a>tuna</a></h3>
+
+              <div class="image-first">
+                <a href="#" class="img-link">
+                  <img
+                    src="./assets/img/tuna.jpg"
+                    alt="img"
+                    class="img-responsive img-full"
+                  />
+                </a>
+              </div>
+
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta
+                  </p>
+                </b>
+              </div>
+            </div>
+
+            <div class="item-content-text px-0 py-3">
+              <div class="post-meta-elements">
+                <div class="post-meta-date m-0">
+                  <i class="fa-regular fa-calendar"></i>
+                  11:54 01/13/2023
+                </div>
+              </div>
+
+              <b>
+                <p
+                  class="img-link-news text-in-focus p-0"
+                  href="#"
+                  title="Tien Giang works hard on combating IUU fishing"
+                >
+                  Frozen tuna exports to Japan tripled
+                </p>
+              </b>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 px-2 px-lg-0 ps-lg-0 pe-lg-4">
+            <div class="news-hot__item mb-3">
+              <h3 class="title-cate p-0 m-0"><a>other marine products</a></h3>
+
+              <div class="image-first">
+                <a href="#" class="img-link">
+                  <img
+                    src="./assets/img/vietnam-impress-seafood.jpeg"
+                    alt="img"
+                    class="img-responsive img-full"
+                  />
+                </a>
+              </div>
+
+              <div class="item-content-text px-0 py-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <b>
+                  <p
+                    class="img-link-news text-in-focus p-0"
+                    href="#"
+                    title="Tien Giang works hard on combating IUU fishing"
+                  >
+                    Frozen tuna exports to Japan tripled
+                  </p>
+                </b>
+              </div>
+            </div>
+
+            <div class="item-content-text px-0 py-3">
+              <div class="post-meta-elements">
+                <div class="post-meta-date m-0">
+                  <i class="fa-regular fa-calendar"></i>
+                  11:54 01/13/2023
+                </div>
+              </div>
+
+              <b>
+                <p
+                  class="img-link-news text-in-focus p-0"
+                  href="#"
+                  title="Tien Giang works hard on combating IUU fishing"
+                >
+                  Frozen tuna exports to Japan tripled
+                </p>
+              </b>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="middleCenterPane" class="container-fluid p-0">
+        <div class="middle-content-pane d-lg-flex">
+          <div class="col-lg-6 col-12 px-2 px-sm-0 pe-md-2 mb-4">
+            <a href="/" target="_self">
+              <img
+                src="./assets/img/middle-center-banner1.png"
+                alt="stapimex"
+                class="img-responsive"
+              />
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-12 px-2 px-sm-0 ps-md-2 mb-4">
+            <a href="/" target="_self">
+              <img
+                src="./assets/img/middle-center-banner2.png"
+                alt="stapimex"
+                class="img-responsive"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-schedule media p-4">
+        <div class="container">
+          <h3
+            class="title-cate text-center text-white text-border p-0 m-0 mb-4"
+          >
+            <a><strong>video</strong> </a>
+          </h3>
+
+          <div class="col-lg-6 col-12 float-start px-2 px-md-4">
+            <div class="media-content">
+              <div class="video-container">
+                <iframe
+                  class="responsive-iframe"
+                  src="https://www.youtube.com/embed/8X7duC4SXgE&ab_channel=Thu%E1%BB%B7s%E1%BA%A3nVi%E1%BB%87tNam-SeafoodVietnam"
+                ></iframe>
+              </div>
+
+              <div class="item-content-text px-0 pt-3">
+                <div class="post-meta-elements">
+                  <div class="post-meta-date m-0">
+                    <i class="fa-regular fa-calendar"></i>
+                    11:54 01/13/2023
+                  </div>
+                </div>
+
+                <p class="text-white text-uppercase p-0">
+                  VASEP Highlight- Feb.2023: In January 2023, Vietnam seafood
+                  exports decreased , but many small markets increased
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12 float-end px-2 px-md-4">
+            <div class="video-relates">
+              <div class="video-item d-flex mb-4 pb-4">
+                <div class="col-4 pe-4">
+                  <div class="image-first">
+                    <a href="#" class="img-link">
+                      <img
+                        src="./assets/img/video-relates1.jpg"
+                        alt="img"
+                        class="img-responsive img-full"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="item-content-text">
+                    <div class="post-meta-elements">
+                      <div class="post-meta-date m-0">
+                        <i class="fa-regular fa-calendar"></i>
+                        11:54 01/13/2023
+                      </div>
+                    </div>
+
+                    <h3 class="py-2">
+                      <a
+                        class="img-link-news text-white"
+                        href="#"
+                        title="Tien Giang works hard on combating IUU fishing"
+                      >
+                        VASEP Highlight - Feb.2023: Vietnam pangasius exports
+                        grew..
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-item d-flex mb-4 pb-4">
+                <div class="col-4 pe-4">
+                  <div class="image-first">
+                    <a href="#" class="img-link">
+                      <img
+                        src="./assets/img/video-relates2.jpg"
+                        alt="img"
+                        class="img-responsive img-full"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="item-content-text">
+                    <div class="post-meta-elements">
+                      <div class="post-meta-date m-0">
+                        <i class="fa-regular fa-calendar"></i>
+                        11:54 01/13/2023
+                      </div>
+                    </div>
+
+                    <h3 class="py-2">
+                      <a
+                        class="img-link-news text-white"
+                        href="#"
+                        title="Tien Giang works hard on combating IUU fishing"
+                      >
+                        VASEP Highlight - Feb.2023: Vietnam pangasius exports
+                        grew..
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-item d-flex mb-4 pb-4">
+                <div class="col-4 pe-4">
+                  <div class="image-first">
+                    <a href="#" class="img-link">
+                      <img
+                        src="./assets/img/video-relates3.jpg"
+                        alt="img"
+                        class="img-responsive img-full"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="item-content-text">
+                    <div class="post-meta-elements">
+                      <div class="post-meta-date m-0">
+                        <i class="fa-regular fa-calendar"></i>
+                        11:54 01/13/2023
+                      </div>
+                    </div>
+
+                    <h3 class="py-2">
+                      <a
+                        class="img-link-news text-white"
+                        href="#"
+                        title="Tien Giang works hard on combating IUU fishing"
+                      >
+                        VASEP Highlight - Feb.2023: Vietnam pangasius exports
+                        grew..
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="container pt-4 pb-4">
+        <div class="row">
+          <div class="col-lg-9 col-12 p-2 p-lg-0 pe-lg-4">
+            <div class="boxCatIndex mb-4">
+              <div class="module-title">
+                <h3 class="m-0"><a>combat iuu fishing</a></h3>
+              </div>
+
+              <div class="col-sm-4 col-12 float-start">
+                <ul>
+                  <li>
+                    <span class="number">1</span>
+                    <a href="/">Vietnam’s action compaign</a>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-4 col-12 float-start">
+                <ul>
+                  <li>
+                    <span class="number">2</span>
+                    <a href="/">Vietnam’s action compaign</a>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+
+                    <div class="content">
+                      <div class="post-meta-elements">
+                        <div class="post-meta-date">
+                          <i class="fa-regular fa-calendar"></i>
+                          11:54 01/13/2023
+                        </div>
+                      </div>
+
+                      <a href="/">
+                        All illegal fishing activities to be punished
+                        strictly:...
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-sm-4 col-12 float-start ps-4">
+                <ul>
+                  <li>
+                    <span class="number">3</span>
+                    <a href="/">Vietnam’s action compaign</a>
+                  </li>
+
+                  <li>
+                    <span class="number">4</span>
+                    <a href="/">Vietnam’s action compaign</a>
+                  </li>
+
+                  <li>
+                    <span class="number">5</span>
+                    <a href="/">Vietnam’s action compaign</a>
+                  </li>
+
+                  <li>
+                    <span class="number">6</span>
+                    <a href="/">Vietnam’s action compaign</a>
+                  </li>
+
+                  <li>
+                    <span class="number">7</span>
+                    <a href="/">Vietnam’s action compaign</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 p-2 p-lg-0 pe-lg-4">
+            <div class="boxCatIndexSmall mb-4">
+              <div class="module-title">
+                <h3 class="m-0"><a>vasep Publications</a></h3>
+              </div>
+
+              <ul>
+                <li>
+                  <a href="#">Map of Vietnam’s seafood factories</a>
+                </li>
+
+                <li>
+                  <a href="/">Pangasius 26 Q&amp;A</a>
+                </li>
+
+                <li>
+                  <a href="/">Other</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-subcat">
+        <div class="container d-lg-flex">
+          <div class="col-lg-3 col-12 p-2 p-lg-0 pe-lg-4">
+            <h4>
+              <a href="/"
+                >WHY BUY SEAFOOD <br />
+                FROM VIETNAM</a
+              >
+            </h4>
+
+            <div class="boxChild">
+              <ul>
+                <li><a href="/">Food safety</a></li>
+
+                <li>
+                  <a href="/">Certifications</a>
+                </li>
+
+                <li>
+                  <a href="/">Available fish sources</a>
+                </li>
+
+                <li>
+                  <a href="/">Export potentials</a>
+                </li>
+
+                <li>
+                  <a href="/">Fishery Profile</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 p-2 p-lg-0 pe-lg-4">
+            <h4>
+              <a href="/"
+                >WHY BUY SEAFOOD <br />
+                FROM VIETNAM</a
+              >
+            </h4>
+
+            <div class="boxChild">
+              <ul>
+                <li><a href="/">Food safety</a></li>
+
+                <li>
+                  <a href="/">Certifications</a>
+                </li>
+
+                <li>
+                  <a href="/">Available fish sources</a>
+                </li>
+
+                <li>
+                  <a href="/">Export potentials</a>
+                </li>
+
+                <li>
+                  <a href="/">Fishery Profile</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 p-2 p-lg-0 pe-lg-4">
+            <h4>
+              <a href="/"
+                >WHY BUY SEAFOOD <br />
+                FROM VIETNAM</a
+              >
+            </h4>
+
+            <div class="boxChild">
+              <ul>
+                <li><a href="/">Food safety</a></li>
+
+                <li>
+                  <a href="/">Certifications</a>
+                </li>
+
+                <li>
+                  <a href="/">Available fish sources</a>
+                </li>
+
+                <li>
+                  <a href="/">Export potentials</a>
+                </li>
+
+                <li>
+                  <a href="/">Fishery Profile</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 p-2 p-lg-0 pe-lg-4">
+            <h4>
+              <a href="/"
+                >WHY BUY SEAFOOD <br />
+                FROM VIETNAM</a
+              >
+            </h4>
+
+            <div class="boxChild">
+              <ul>
+                <li><a href="/">Food safety</a></li>
+
+                <li>
+                  <a href="/">Certifications</a>
+                </li>
+
+                <li>
+                  <a href="/">Available fish sources</a>
+                </li>
+
+                <li>
+                  <a href="/">Export potentials</a>
+                </li>
+
+                <li>
+                  <a href="/">Fishery Profile</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="container box-footer">
+        <div class="logo">
+          <a href="/">
+            <img
+              src="./assets/img/logo-footer.png"
+              class="img-responsive"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="text">
+          <p>Vietnam Association of Seafood Exporters and Producers</p>
+
+          <p>Seafood from Viet Nam</p>
+        </div>
+
+        <div class="form-group row mb-4">
+          <div class="col-md-6 col-xs-12 px-0">
+            <p>
+              Portal of Vietnam Association of Seafood Exporters and Producers
+              (VASEP)
+            </p>
+
+            <p>
+              Head office in HCM city: No 7, Nguyen Quy Canh Road, An Phu Ward,
+              Thu Duc City, Ho Chi Minh City, Vietnam
+            </p>
+
+            <p>
+              Tel: (+84 28) 62810430 / Fax: (+84 28) 62810437 - Email:
+              vasephcmcity@vasep.com.vn
+            </p>
+
+            <p>
+              Rep. office in Ha Noi: 10 Nguyen Cong Hoan Street, Ngoc Khanh
+              Ward, Ba Dinh District, Ha Noi City, Vietnam
+            </p>
+
+            <p>
+              Tel: (+84 24) 37715055 / 37715318 - Fax: (+84 24) 37715084 -
+              Email: vasephn@vasep.com.vn
+            </p>
+          </div>
+
+          <div class="col-md-6 col-xs-12 px-0">
+            <p>
+              In charge of content: Nguyen Hoai Nam (Mr) – Deputy General
+              Secretary of VASEP
+            </p>
+
+            <p>Managing Editor: Le Bao Ngoc (Ms.)</p>
+
+            <p>Tel: (+84 24) 37715055 (ext: 218)</p>
+
+            <p>Email: baongoc@vasep.com.vn</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-coppyright">
+        <div class="container p-0">
+          <div class="copyright">
+            © Copyright 2020 VASEP. Privacy policy RSS
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

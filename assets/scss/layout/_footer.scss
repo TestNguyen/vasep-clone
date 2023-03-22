@@ -1,0 +1,46 @@
+#footer {
+  background: #1f59a8;
+
+  p {
+    color: $white;
+    line-height: 1.2rem;
+    font-family: $robotoCondensed;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.box-footer {
+  padding-top: 3rem;
+
+  .logo {
+    width: 10rem;
+    position: absolute;
+    margin-top: 1rem;
+
+    img {
+      margin-top: -1.5rem;
+    }
+  }
+
+  .text {
+    min-height: 6rem;
+    padding-left: 11.5rem;
+  }
+}
+
+.box-coppyright {
+  background-color: $primary;
+
+  .copyright {
+    color: #bdcaff;
+    font: normal 1.3rem $robotoCondensed;
+    padding: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #footer .box-footer {
+    padding: 1.5rem !important;
+  }
+}

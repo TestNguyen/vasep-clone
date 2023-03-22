@@ -1,0 +1,295 @@
+// .module {
+//   background-color: $white;
+// }
+
+// .breadcrumb {
+//   padding: 1rem 0;
+// }
+
+// .breadcrumb a {
+//   font-size: 1.4rem;
+//   line-height: 2.2rem;
+//   color: #212121;
+// }
+
+// .breadcrumb-item {
+//   padding: 0;
+// }
+
+// .news-index .module-title h3.title {
+//   font: bold 2.2rem/3.2rem $robotoCondensed;
+//   text-transform: uppercase;
+//   width: auto;
+//   color: $black;
+// }
+
+.sidebar-newsfeed {
+  width: 100%;
+}
+
+.post-meta-elements {
+  margin: 0 0 0.8rem 0;
+
+  .post-meta-date {
+    margin: 0 1.6rem 0 0;
+
+    display: inline-block;
+    font-size: 1.3rem;
+    color: #999;
+  }
+}
+
+.item-content-text {
+  width: 100%;
+
+  h4 {
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      font-weight: bold;
+
+      letter-spacing: 0;
+      text-align: left;
+      padding-top: 1.5rem;
+      color: $black;
+    }
+  }
+
+  p {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    color: $black;
+    margin: 0 0 0.8rem;
+  }
+}
+
+.title-cate {
+  min-height: 4.2rem;
+  width: 100%;
+
+  a {
+    font: bold 16px/3.2rem $robotoCondensed;
+    text-transform: uppercase;
+
+    color: $title;
+    border-bottom: 0.3rem solid $primary;
+
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.2rem;
+  }
+}
+
+.title-cate.text-center {
+  min-height: 4.2rem;
+  width: 100%;
+}
+
+.img-full {
+  width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-first {
+  width: 100%;
+
+  img {
+    max-height: 100%;
+    min-width: 100%;
+
+    border-radius: 0;
+  }
+}
+
+// .middleSlider {
+//   img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover !important;
+//   }
+// }
+
+.news-hot__item {
+  border-bottom: 0.1rem solid #e9e9e9;
+  width: 100%;
+}
+
+.news-hot__item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.news-hot__item .item-content-text b p {
+  line-height: 140% !important;
+  height: 4rem;
+}
+
+.media {
+  background-color: #161520;
+
+  h3 {
+    a {
+      padding: 0 5px 5px;
+    }
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+  }
+}
+
+.video-item {
+  border-bottom: 0.1rem solid #303030;
+}
+
+.video-item .item-content-text h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.boxCatIndex ul {
+  margin-bottom: 0.8rem;
+
+  li {
+    padding: 8px 0;
+    border-bottom: 0.1rem solid #e9e9e9;
+
+    .number {
+      font-size: 3.6rem;
+      font-weight: bold;
+      color: #c4c4c4;
+      display: table-cell;
+      max-width: 3rem;
+    }
+
+    a {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-transform: uppercase;
+      color: $primary;
+
+      vertical-align: middle;
+      display: table-cell;
+      padding-left: 1rem;
+    }
+  }
+}
+
+.boxCatIndex ul li .content {
+  padding-left: 3.1rem;
+  margin-bottom: 1rem;
+
+  a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+
+    color: $black;
+    text-transform: none;
+    padding: 0;
+  }
+}
+
+.boxCatIndexSmall ul li {
+  padding: 0.8rem 0;
+  border-bottom: 0.1rem solid #e9e9e9;
+
+  a {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    color: $black;
+
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
+
+.module-title {
+  min-height: 2.8rem;
+  width: 100%;
+  overflow: hidden;
+
+  h3 {
+    width: auto;
+    border-bottom: 2px solid $primary;
+    display: inline;
+
+    a {
+      font: bold 1.6rem/2rem $robotoCondensed;
+      color: $black;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.box-subcat {
+  background-color: $light-blue;
+  padding: 2rem 0;
+
+  h4 a {
+    font: bold 1.5rem/2rem $robotoCondensed;
+    text-transform: uppercase;
+    color: $black;
+
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.2rem;
+    display: block;
+  }
+}
+
+.box-subcat ul {
+  margin-bottom: 1rem;
+
+  li {
+    margin-bottom: 0.7rem;
+
+    a {
+      font-size: 1.4rem;
+      color: $black;
+    }
+  }
+}
+
+.text-latest {
+  font-size: 1.5rem !important;
+}
+
+.text-hot {
+  font-size: 1.8rem !important;
+}
+
+.text-in-focus {
+  font-size: 1.45rem !important;
+  line-height: 1.8rem !important;
+}
+
+.text-border a {
+  border-bottom: 3px solid #ffd233 !important;
+}
