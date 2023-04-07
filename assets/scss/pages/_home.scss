@@ -105,6 +105,25 @@
 
     border-radius: 0;
   }
+
+  a {
+    position: relative;
+
+
+    .play-icon {
+
+      font-size: 1rem;
+      color: $white;
+      background-color: $primary;
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      padding: .1rem 0.5rem;
+      z-index: 989;
+    }
+  }
 }
 
 // .middleSlider {
@@ -250,7 +269,7 @@
 }
 
 .box-subcat {
-  background-color: $light-blue;
+  background-color: #e7f2fb;
   padding: 2rem 0;
 
   h4 a {
@@ -291,5 +310,5 @@
 }
 
 .text-border a {
-  border-bottom: 3px solid #ffd233 !important;
+  border-bottom: 3px solid $yellows !important;
 }

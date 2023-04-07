@@ -1,0 +1,73 @@
+@mixin background-img($vn-bg: true) {
+  @if $vn-bg {
+    background: url(/assets/img/bg-home-top-vn.jpg) top left no-repeat;
+    background-color: #eff8ff !important;
+  } @else {
+    background: url(/assets/img/bg-home-top-en.jpeg) top left no-repeat;
+    background-color: $white !important;
+  }
+}
+
+@mixin colors($vn-color: true) {
+  @if $vn-color {
+    color: #06c !important;
+  } @else {
+    color: $yellows !important;
+  }
+}
+
+@mixin theme-colors($vn-theme: true) {
+  @if $vn-theme {
+    background-color: $white;
+  } @else {
+    background-color: $primary;
+  }
+}
+
+@mixin font-weight($font-vn: true) {
+  @if $font-vn {
+    font-weight: normal;
+    padding: 2.2rem 1.2rem;
+  } @else {
+    font-weight: bold;
+    padding: 1.5rem 1.5rem 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+@mixin dropdown-menu($sub-menu: true) {
+  @if $sub-menu {
+    background-color: $sub-menu-primary;
+  } @else {
+    background-color: $primary;
+  }
+}
+
+@mixin footer-background($vn-footer: true) {
+  @if $vn-footer {
+    background: url(/assets/img/bg-footer.png) bottom left no-repeat;
+    background-size: 100% 100%;
+    background-color: #eff8ff;
+    width: 100%;
+
+    .box-footer {
+      padding-top: 15rem;
+    }
+
+    .box-coppyright {
+      background-color: transparent;
+    }
+  } @else {
+    background: #1f59a8;
+
+    .box-footer {
+      padding-top: 3rem;
+    }
+
+    .box-coppyright {
+      background-color: $primary;
+    }
+  }
+}
+
+

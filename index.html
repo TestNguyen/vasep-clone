@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Site</title>
+    <title>
+      Vietnam Association of Seafood Exporters and Producers (VASEP) | Vietnam
+      Seafood
+    </title>
+
+    <link
+      rel="icon"
+      href="./assets/img/logo-footer.png"
+      type="image/icon type"
+    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,23 +46,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- owl carousel  -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
   </head>
-  <body>
+
+  <body id="en">
     <div id="wrapper">
       <div class="navigation">
         <div class="container ps-0 pe-0 d-md-flex">
           <div class="sub-link col-md-4 ps-0 d-none d-md-block">
             <ul class="d-flex">
               <li>
-                <a href="#">SUPA</a>
+                <a href="/">SUPA</a>
               </li>
 
               <li>
-                <a href="#">Youreverydayfish</a>
+                <a href="/">Youreverydayfish</a>
               </li>
 
               <li>
-                <a href="#">VietFish</a>
+                <a href="/">VietFish</a>
               </li>
             </ul>
           </div>
@@ -62,15 +79,15 @@
           >
             <ul class="list-icon d-flex">
               <li>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="/"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
 
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="/"><i class="fab fa-twitter"></i></a>
               </li>
 
               <li>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="/"><i class="fab fa-youtube"></i></a>
               </li>
             </ul>
           </div>
@@ -78,11 +95,11 @@
           <div class="log-link col-md-4 col-12 pe-0 d-flex justify-content-end">
             <ul class="">
               <li class="dropdown quick-login">
-                <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                <a href="/"><i class="fas fa-sign-in-alt"></i> Login</a>
               </li>
 
               <li>
-                <a href="http://vasep.com.vn"
+                <a href="indexvn.html" target="_blank"
                   ><img src="./assets/img/vi-VN.png" /> Vietnamese</a
                 >
               </li>
@@ -92,18 +109,29 @@
       </div>
 
       <header id="header">
-        <div id="mainHeaderInner" class="container">
-          <div class="sidenav-header-logo">
-            <a href="/" class="brand d-flex flex-r"
-              ><img
-                id="imgLogo"
-                class="img-responsive"
-                src="./assets/img/vasep-logo.png"
-                alt="vasep logo"
-              />
+        <button
+          type="button"
+          class="navbar-toggle en"
+          data-toggle="collapse"
+          id="sidenav-toggle"
+        >
+          <span class="icon-bar"><i class="fa-solid fa-bars"></i></span>
+        </button>
 
-              <h2>Vietnam Association of Seafood Exporters and Producers</h2>
-            </a>
+        <div id="mainHeaderInner" class="container en">
+          <div class="sidenav-header-wrapper">
+            <div class="sidenav-header-logo">
+              <a href="/" class="brand"
+                ><img
+                  id="imgLogo"
+                  class="img-responsive"
+                  src="./assets/img/vasep-logo.png"
+                  alt="vasep logo"
+                />
+
+                <h2>Vietnam Association of Seafood Exporters and Producers</h2>
+              </a>
+            </div>
           </div>
 
           <div id="navbar-top-wrapper" class="d-flex">
@@ -112,7 +140,7 @@
                 ><img
                   id="imgLogo"
                   class="img-responsive"
-                  src="./assets/img/vasep-logo.png"
+                  src="./assets/img/log-vn.png"
                   alt="vasep logo"
               /></a>
             </div>
@@ -123,7 +151,7 @@
                   Vietnam Association of Seafood Exporters and Producers
                 </h2>
 
-                <h3 id="unit-name-en" class="d-none d-lg-block">
+                <h3 id="unit-name-en" class="d-none d-lg-block text-uppercase">
                   Seafood from Viet Nam
                 </h3></a
               >
@@ -132,342 +160,323 @@
         </div>
 
         <div
-          class="main-menu navbar-collapse d-none d-xl-block sticky-top"
-          id="navbarSupportedContent"
+          class="main-menu navbar-collapse primary d-none d-xl-block"
+          id="navbarTop"
         >
-          <div class="container">
+          <div class="container primary nav-bold en-theme en-color">
             <ul class="navbar-nav d-lg-flex flex-row me-auto">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#"
+              <li class="nav-item border-0">
+                <a class="nav-link" aria-current="page" href="/"
                   ><i class="fa fa-home"></i
                 ></a>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#"
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link"
                   >Why buy seafood <span class="sub-menu">from Vietnam</span></a
                 >
 
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#" class="dropdown-item">Food safety</a>
+                    <a href="/" class="dropdown-item">Food safety</a>
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">Certifications</a>
+                    <a href="/" class="dropdown-item">Certifications</a>
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">Available fish sources</a>
+                    <a href="/" class="dropdown-item">Available fish sources</a>
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">Export potentials</a>
+                    <a href="/" class="dropdown-item">Export potentials</a>
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">Fishery Profile</a>
+                    <a href="/" class="dropdown-item">Fishery Profile</a>
                   </li>
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#"
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link"
                   >Key Seafood sectors
                   <span class="sub-menu">in Vietnam</span></a
                 >
 
                 <ul class="dropdown-menu">
                   <li class="dropdown-submenu">
-                    <a class="nav-link" href="#">Shrimp</a>
+                    <a href="/" class="dropdown-item">Shrimp</a>
 
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">Sector profile</a>
+                        <a href="/" class="dropdown-item">Sector profile</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">News</a>
+                        <a href="/" class="dropdown-item">News</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Suppliers</a>
+                        <a href="/" class="dropdown-item">Suppliers</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Statistic</a>
+                        <a href="/" class="dropdown-item">Statistic</a>
                       </li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      href=""
+                    <a href="/" class="dropdown-item" role="button"
                       >Pangasius</a
                     >
 
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">Sector profile</a>
+                        <a href="/" class="dropdown-item">Sector profile</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">News</a>
+                        <a href="/" class="dropdown-item">News</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/suppliers/type/2"
-                          >Suppliers</a
-                        >
+                        <a href="/" class="dropdown-item">Suppliers</a>
                       </li>
 
                       <li>
-                        <a
-                          class="dropdown-item"
-                          href="/statistics/seafood-export-statistics?key=&amp;sp=1224"
-                          >Statistic</a
-                        >
+                        <a href="/" class="dropdown-item">Statistic</a>
                       </li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a
-                      class="nav-link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      href=""
-                      >Tuna</a
-                    >
+                    <a href="/" class="dropdown-item">Tuna</a>
 
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">Sector profile</a>
+                        <a href="/" class="dropdown-item">Sector profile</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">News</a>
+                        <a href="/" class="dropdown-item">News</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Suppliers</a>
+                        <a href="/" class="dropdown-item">Suppliers</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Statistic</a>
+                        <a href="/" class="dropdown-item">Statistic</a>
                       </li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a class="nav-link" href="#">Other marine products</a>
+                    <a href="/" class="dropdown-item">Other marine products</a>
 
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">Sector profile</a>
+                        <a href="/" class="dropdown-item">Sector profile</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">News</a>
+                        <a href="/" class="dropdown-item">News</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Suppliers</a>
+                        <a href="/" class="dropdown-item">Suppliers</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Statistic</a>
+                        <a href="/" class="dropdown-item">Statistic</a>
                       </li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a class="nav-link" href="#">Total seafood trade</a>
+                    <a href="/" class="dropdown-item">Total seafood trade</a>
 
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#">News</a>
+                        <a href="/" class="dropdown-item">News</a>
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="#">Statistic</a>
+                        <a href="/" class="dropdown-item">Statistic</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#">Reports</a>
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link">Reports</a>
 
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#">Quarterly report on Vietnam seafood exports</a>
+                    <a href="/" class="dropdown-item"
+                      >Quarterly report on Vietnam seafood exports</a
+                    >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Report on Vietnam seafood products</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Report on seafood markets</a
                     >
                   </li>
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#">Regulations</a>
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link">Regulations</a>
 
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#"
+                    <a href="/" class="dropdown-item"
                       >Ministry of Agriculture and Rural Development</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Government and other ministries</a
                     >
                   </li>
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#">Combat IUU Fishing</a>
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link">Combat IUU Fishing</a>
 
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Vietnam’s action compaign</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Vietnam legal documents</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">
+                    <a href="/" class="dropdown-item">
                       VASEP's IUU Steering Committee</a
                     >
                   </li>
 
                   <li>
-                    <a href="#"
+                    <a href="/" class="dropdown-item"
                       >List of Vietnam companies commiting to combat IUU</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Press Statement to combat IUU</a
                     >
                   </li>
 
                   <li>
-                    <a href="#"
+                    <a href="/" class="dropdown-item"
                       >White Book on combating IUU fishing in Vietnam</a
                     >
                   </li>
 
                   <li>
-                    <a href="#" class="dropdown-item">IUU vessel list</a>
+                    <a href="/" class="dropdown-item">IUU vessel list</a>
                   </li>
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#"
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link"
                   >How we can <span class="sub-menu">help you</span></a
                 >
 
                 <ul class="dropdown-menu">
-                  <li><a href="#">Publications</a></li>
-
-                  <li><a href="#">Business meeting</a></li>
+                  <li><a href="/" class="dropdown-item">Publications</a></li>
 
                   <li>
-                    <a href="#" class="dropdown-item">Vietfish Exhibition</a>
+                    <a href="/" class="dropdown-item">Business meeting</a>
                   </li>
 
-                  <li><a href="#">Advocacy</a></li>
+                  <li>
+                    <a href="/" class="dropdown-item">Vietfish Exhibition</a>
+                  </li>
 
-                  <li><a href="#">Training</a></li>
+                  <li><a href="/" class="dropdown-item">Advocacy</a></li>
+
+                  <li><a href="/" class="dropdown-item">Training</a></li>
                 </ul>
               </li>
 
               <li class="nav-item">
-                <a href="#" class="nav-link">Events</a>
+                <a href="/" class="nav-link">Events</a>
               </li>
 
-              <li class="dropdown">
-                <a class="nav-link" href="#">About VASEP</a>
+              <li class="nav-item dropdown">
+                <a href="/" class="nav-link">About VASEP</a>
 
                 <ul class="dropdown-menu">
-                  <li><a href="#">VASEP Introduction</a></li>
+                  <li>
+                    <a href="/" class="dropdown-item">VASEP Introduction</a>
+                  </li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Organization &amp; Charter</a
                     >
                   </li>
 
-                  <li><a href="#">Executive Board</a></li>
+                  <li><a href="/" class="dropdown-item">Executive Board</a></li>
 
                   <li>
-                    <a href="#" class="dropdown-item"
+                    <a href="/" class="dropdown-item"
                       >Committees &amp; VASEP offices</a
                     >
                   </li>
 
-                  <li><a href="#">Editorial Board</a></li>
+                  <li><a href="/" class="dropdown-item">Editorial Board</a></li>
 
                   <li>
-                    <a href="#t">VASEP - 15 years of development</a>
+                    <a href="/" class="dropdown-item"
+                      >VASEP - 15 years of development</a
+                    >
                   </li>
                 </ul>
               </li>
 
-              
-
-              <li class="toggle-menu-icon border-0">
-                <a class="navbar-toggle toggle-menu">
+              <li class="toggle-menu-icon border-0 after-no">
+                <a href="/" class="navbar-toggle toggle-menu">
                   <span>
                     <i class="fa-solid fa-bars"></i>
                   </span>
                 </a>
               </li>
 
-              <li class="container-input">
+              <li class="container-input after-no">
                 <span class="icon"><i class="fa fa-search"></i></span>
 
-                <input
-                  id="search-box"
-                  class="d-block"
-                  type="text"
-                  placeholder="Keyword..."
-                />
+                <input id="search-box" type="text" placeholder="Keyword..." />
               </li>
             </ul>
           </div>
         </div>
 
         <div class="container px-0">
-          <div class="xbox box-member mb-5 p-4">
+          <div class="xbox box-member en-box mb-5 p-4">
             <div class="img-memhead">
               <img src="./assets/img/memgold.png" alt="" />
             </div>
@@ -476,8 +485,8 @@
               <div class="row d-md-flex justify-content-between">
                 <h3 class="p-0 m-0">find your suppliers</h3>
 
-                <a class="linkViewAll" href="#"
-                  >View All <i class="fa-solid fa-arrow-right-long"></i
+                <a href="/" class="linkViewAll"
+                  >View A ll <i class="fa-solid fa-arrow-right-long"></i
                 ></a>
               </div>
             </div>
@@ -572,7 +581,7 @@
                         placeholder="Enter Keywords..."
                       />
 
-                      <a id="" class="input-group-addon" href="#"
+                      <a id="" class="input-group-addon" href="/"
                         ><i class="fa-solid fa-magnifying-glass"></i> SEARCH</a
                       >
                     </div>
@@ -581,9 +590,24 @@
               </div>
 
               <div class="col-12">
-                <ul class="xbrand-logo d-flex">
+                <!-- <div class="owl-carousel owl-theme">
+                  <div class="item"><h4>1</h4></div>
+                  <div class="item"><h4>2</h4></div>
+                  <div class="item"><h4>3</h4></div>
+                  <div class="item"><h4>4</h4></div>
+                  <div class="item"><h4>5</h4></div>
+                  <div class="item"><h4>6</h4></div>
+                  <div class="item"><h4>7</h4></div>
+                  <div class="item"><h4>8</h4></div>
+                  <div class="item"><h4>9</h4></div>
+                  <div class="item"><h4>10</h4></div>
+                  <div class="item"><h4>11</h4></div>
+                  <div class="item"><h4>12</h4></div>
+                </div> -->
+
+                <ul class="owl-carousel xbrand-logo d-flex">
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo.jpg"
@@ -592,7 +616,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo1.png"
@@ -601,7 +625,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo10.png"
@@ -610,7 +634,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img//brand-logo2.png"
@@ -619,7 +643,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo3.png"
@@ -628,7 +652,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo4.png"
@@ -637,7 +661,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo9.png"
@@ -646,7 +670,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo8.png"
@@ -655,7 +679,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo7.png"
@@ -664,7 +688,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo6.png"
@@ -673,7 +697,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#"
+                    <a href="/"
                       ><img
                         src="./assets/img/logo cty tnhh uv-việt nam.png"
                         alt="brand-logo"
@@ -681,7 +705,7 @@
                   </li>
 
                   <li class="xbrand-logo__item">
-                    <a href="#" class="xbrand-logo__link"
+                    <a href="/" class="xbrand-logo__link"
                       ><img
                         class="xbrand-logo__logo"
                         src="./assets/img/brand-logo5.png"
@@ -699,10 +723,10 @@
         <div class="module">
           <div class="container mb-5">
             <div class="row g-0 breadcrumb d-block m-0 border-0">
-              <a href="#" class="home p-0"><i class="fa fa-home mx-2"></i> /</a>
+              <a href="/" class="home p-0"><i class="fa fa-home mx-2"></i> /</a>
 
               <span>
-                <a href="#"
+                <a href="/"
                   ><span class="breadcrumb-item p-1">Combat IUU Fishing</span> /
                 </a>
               </span>
@@ -720,7 +744,7 @@
                       <div class="block-main">
                         <div class="ximage">
                           <a
-                            href="#"
+                            href="/"
                             title="Tien Giang works hard on combating IUU fishing"
                           >
                             <img
@@ -738,7 +762,7 @@
                         <div class="title-left xmain-link">
                           <h4>
                             <a
-                              href="#"
+                              href="/"
                               title="Tien Giang works hard on combating IUU fishing"
                               >Tien Giang works hard on combating IUU fishing</a
                             >
@@ -783,7 +807,7 @@
                     <h3 class="title-cate m-0"><a>Hot news</a></h3>
                     <!-- Image -->
                     <div class="image-first">
-                      <a href="#" class="img-link">
+                      <a href="/" class="img-link">
                         <img
                           src="./assets/img/frozen-tuna.jpg"
                           alt="img"
@@ -806,7 +830,7 @@
                       <h4>
                         <a
                           class="img-link-news text-hot"
-                          href="#"
+                          href="/"
                           title="Tien Giang works hard on combating IUU fishing"
                           >Frozen tuna exports to Japan tripled</a
                         >
@@ -833,7 +857,7 @@
 
                       <div class="col-6 px-2 px-md-0 px-md-4">
                         <div class="image-first">
-                          <a href="#" class="img-link">
+                          <a href="/" class="img-link">
                             <img
                               src="./assets/img/latest-news.jpg"
                               alt="img"
@@ -853,7 +877,7 @@
                           <h4>
                             <a
                               class="img-link-news text-latest"
-                              href="#"
+                              href="/"
                               title="Tien Giang works hard on combating IUU fishing"
                               >Frozen tuna exports to Japan tripled</a
                             >
@@ -863,7 +887,7 @@
 
                       <div class="col-6 px-2 px-md-0 px-md-4">
                         <div class="image-first">
-                          <a href="#" class="img-link">
+                          <a href="/" class="img-link">
                             <img
                               src="./assets/img/latest-news2.jpg"
                               alt="img"
@@ -883,7 +907,7 @@
                           <h4>
                             <a
                               class="img-link-news text-latest"
-                              href="#"
+                              href="/"
                               title="Tien Giang works hard on combating IUU fishing"
                               >Ang Giang: A worthy investment for the pangasius
                               industry</a
@@ -894,7 +918,7 @@
 
                       <div class="col-6 px-2 px-md-0 px-md-4">
                         <div class="image-first">
-                          <a href="#" class="img-link">
+                          <a href="/" class="img-link">
                             <img
                               src="./assets/img/latest-news3.jpg"
                               alt="img"
@@ -914,7 +938,7 @@
                           <h4>
                             <a
                               class="img-link-news text-latest"
-                              href="#"
+                              href="/"
                               title="Tien Giang works hard on combating IUU fishing"
                               >Vietnam increases exports of frozen steamed tuna
                               loin
@@ -925,7 +949,7 @@
 
                       <div class="col-6 px-2 px-md-0 px-md-4">
                         <div class="image-first">
-                          <a href="#" class="img-link">
+                          <a href="/" class="img-link">
                             <img
                               src="./assets/img/latest-news4.jpg"
                               alt="img"
@@ -945,7 +969,7 @@
                           <h4>
                             <a
                               class="img-link-news text-latest"
-                              href="#"
+                              href="/"
                               title="Tien Giang works hard on combating IUU fishing"
                               >Thai Binh: Calling for investment in a calm
                               processing</a
@@ -966,7 +990,7 @@
 
               <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
                 <div class="image-first">
-                  <a href="#" class="img-link">
+                  <a href="/" class="img-link">
                     <img
                       src="./assets/img/vietnam-impress-seafood.jpeg"
                       alt="img"
@@ -986,7 +1010,7 @@
                   <b>
                     <p
                       class="img-link-news text-in-focus p-0"
-                      href="#"
+                      href="/"
                       title="Tien Giang works hard on combating IUU fishing"
                     >
                       Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -997,7 +1021,7 @@
 
               <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
                 <div class="image-first">
-                  <a href="#" class="img-link">
+                  <a href="/" class="img-link">
                     <img
                       src="./assets/img/vietnam-impress-seafood1.jpeg"
                       alt="img"
@@ -1017,7 +1041,7 @@
                   <b>
                     <p
                       class="img-link-news text-in-focus p-0"
-                      href="#"
+                      href="/"
                       title="Tien Giang works hard on combating IUU fishing"
                     >
                       Frozen tuna exports to Japan tripled
@@ -1028,7 +1052,7 @@
 
               <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
                 <div class="image-first">
-                  <a href="#" class="img-link">
+                  <a href="/" class="img-link">
                     <img
                       src="./assets/img/vietnam-impress-seafood2.jpeg"
                       alt="img"
@@ -1048,7 +1072,7 @@
                   <b>
                     <p
                       class="img-link-news text-in-focus p-0"
-                      href="#"
+                      href="/"
                       title="Tien Giang works hard on combating IUU fishing"
                     >
                       Frozen tuna exports to Japan tripled
@@ -1059,7 +1083,7 @@
 
               <div class="col-6 col-lg-3 px-2 px-md-0 px-md-4">
                 <div class="image-first">
-                  <a href="#" class="img-link">
+                  <a href="/" class="img-link">
                     <img
                       src="./assets/img/vietnam-impress-seafood3.jpeg"
                       alt="img"
@@ -1079,7 +1103,7 @@
                   <b>
                     <p
                       class="img-link-news text-in-focus p-0"
-                      href="#"
+                      href="/"
                       title="Tien Giang works hard on combating IUU fishing"
                     >
                       Frozen tuna exports to Japan tripled
@@ -1094,7 +1118,7 @@
 
       <div id="middleTopPane" class="container">
         <div class="middle-content-pane mb-4">
-          <!-- <a href="#" id="slider">
+          <!-- <a href="/" id="slider">
             <img id="mainPhoto" />
             <div class="middleSlider mb-4">
               <img
@@ -1119,7 +1143,7 @@
 
           <ul>
             <li>
-              <a href="#" target="_blank"
+              <a href="/" target="_blank"
                 ><img
                   src="./assets/img/middle-banner.gif"
                   alt="Vinh Hoan"
@@ -1137,7 +1161,7 @@
               <h3 class="title-cate p-0 m-0"><a>shrimp</a></h3>
 
               <div class="image-first">
-                <a href="#" class="img-link">
+                <a href="/" class="img-link">
                   <img
                     src="./assets/img/shrimp.jpeg"
                     alt="img"
@@ -1157,7 +1181,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Minh Phu Seafood Corporation increase capital in two...
@@ -1178,7 +1202,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -1193,7 +1217,7 @@
               <h3 class="title-cate p-0 m-0"><a>pangasius</a></h3>
 
               <div class="image-first">
-                <a href="#" class="img-link">
+                <a href="/" class="img-link">
                   <img
                     src="./assets/img/vietnam-impress-seafood1.jpeg"
                     alt="img"
@@ -1213,7 +1237,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Frozen tuna exports to Japan tripled
@@ -1234,7 +1258,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Frozen tuna exports to Japan tripled
@@ -1249,7 +1273,7 @@
               <h3 class="title-cate p-0 m-0"><a>tuna</a></h3>
 
               <div class="image-first">
-                <a href="#" class="img-link">
+                <a href="/" class="img-link">
                   <img
                     src="./assets/img/tuna.jpg"
                     alt="img"
@@ -1269,7 +1293,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -1290,7 +1314,7 @@
               <b>
                 <p
                   class="img-link-news text-in-focus p-0"
-                  href="#"
+                  href="/"
                   title="Tien Giang works hard on combating IUU fishing"
                 >
                   Frozen tuna exports to Japan tripled
@@ -1304,7 +1328,7 @@
               <h3 class="title-cate p-0 m-0"><a>other marine products</a></h3>
 
               <div class="image-first">
-                <a href="#" class="img-link">
+                <a href="/" class="img-link">
                   <img
                     src="./assets/img/vietnam-impress-seafood.jpeg"
                     alt="img"
@@ -1324,7 +1348,7 @@
                 <b>
                   <p
                     class="img-link-news text-in-focus p-0"
-                    href="#"
+                    href="/"
                     title="Tien Giang works hard on combating IUU fishing"
                   >
                     Frozen tuna exports to Japan tripled
@@ -1344,7 +1368,7 @@
               <b>
                 <p
                   class="img-link-news text-in-focus p-0"
-                  href="#"
+                  href="/"
                   title="Tien Giang works hard on combating IUU fishing"
                 >
                   Frozen tuna exports to Japan tripled
@@ -1392,7 +1416,7 @@
               <div class="video-container">
                 <iframe
                   class="responsive-iframe"
-                  src="https://www.youtube.com/embed/8X7duC4SXgE&ab_channel=Thu%E1%BB%B7s%E1%BA%A3nVi%E1%BB%87tNam-SeafoodVietnam"
+                  src="https://www.youtube.com/embed/NhLEz6oLCqM?controls=0 –?autoplay=1&origin=http://example.com"
                 ></iframe>
               </div>
 
@@ -1417,12 +1441,16 @@
               <div class="video-item d-flex mb-4 pb-4">
                 <div class="col-4 pe-4">
                   <div class="image-first">
-                    <a href="#" class="img-link">
-                      <img
-                        src="./assets/img/video-relates1.jpg"
-                        alt="img"
-                        class="img-responsive img-full"
-                      />
+                    <img
+                      src="./assets/img/video-relates1.jpg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+
+                    <a href="/" class="img-link"
+                      ><span class="play-icon"
+                        ><i class="fa-solid fa-play"></i
+                      ></span>
                     </a>
                   </div>
                 </div>
@@ -1439,7 +1467,7 @@
                     <h3 class="py-2">
                       <a
                         class="img-link-news text-white"
-                        href="#"
+                        href="/"
                         title="Tien Giang works hard on combating IUU fishing"
                       >
                         VASEP Highlight - Feb.2023: Vietnam pangasius exports
@@ -1453,12 +1481,16 @@
               <div class="video-item d-flex mb-4 pb-4">
                 <div class="col-4 pe-4">
                   <div class="image-first">
-                    <a href="#" class="img-link">
-                      <img
-                        src="./assets/img/video-relates2.jpg"
-                        alt="img"
-                        class="img-responsive img-full"
-                      />
+                    <img
+                      src="./assets/img/video-relates2.jpg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+
+                    <a href="/" class="img-link">
+                      <span class="play-icon"
+                        ><i class="fa-solid fa-play"></i
+                      ></span>
                     </a>
                   </div>
                 </div>
@@ -1475,7 +1507,7 @@
                     <h3 class="py-2">
                       <a
                         class="img-link-news text-white"
-                        href="#"
+                        href="/"
                         title="Tien Giang works hard on combating IUU fishing"
                       >
                         VASEP Highlight - Feb.2023: Vietnam pangasius exports
@@ -1489,12 +1521,16 @@
               <div class="video-item d-flex mb-4 pb-4">
                 <div class="col-4 pe-4">
                   <div class="image-first">
-                    <a href="#" class="img-link">
-                      <img
-                        src="./assets/img/video-relates3.jpg"
-                        alt="img"
-                        class="img-responsive img-full"
-                      />
+                    <img
+                      src="./assets/img/video-relates3.jpg"
+                      alt="img"
+                      class="img-responsive img-full"
+                    />
+
+                    <a href="/" class="img-link">
+                      <span class="play-icon"
+                        ><i class="fa-solid fa-play"></i
+                      ></span>
                     </a>
                   </div>
                 </div>
@@ -1511,7 +1547,7 @@
                     <h3 class="py-2">
                       <a
                         class="img-link-news text-white"
-                        href="#"
+                        href="/"
                         title="Tien Giang works hard on combating IUU fishing"
                       >
                         VASEP Highlight - Feb.2023: Vietnam pangasius exports
@@ -1679,7 +1715,7 @@
 
               <ul>
                 <li>
-                  <a href="#">Map of Vietnam’s seafood factories</a>
+                  <a href="/">Map of Vietnam’s seafood factories</a>
                 </li>
 
                 <li>
@@ -1822,6 +1858,39 @@
           </div>
         </div>
       </div>
+
+      <div>
+        <button onclick="topFunction()" id="btn-topback" title="Go to top">
+          <i class="fa-solid fa-angle-up"></i>
+        </button>
+
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("btn-topback");
+
+          // When the user scrolls down 260px from the top of the document, show the button
+          window.onscroll = function () {
+            scrollFunction();
+          };
+
+          function scrollFunction() {
+            if (
+              document.body.scrollTop > 260 ||
+              document.documentElement.scrollTop > 260
+            ) {
+              mybutton.classList.add("show");
+            } else {
+              mybutton.classList.remove("show");
+            }
+          }
+
+          // When clicks, scroll to the top of the doc
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+      </div>
     </div>
 
     <footer id="footer">
@@ -1894,6 +1963,30 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./assets/js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 1500,
+          responsive: {
+            0: {
+              items: 3,
+            },
+            600: {
+              items: 4,
+            },
+            1000: {
+              items: 12,
+            },
+          },
+        });
+      });
+    </script>
   </body>
 </html>

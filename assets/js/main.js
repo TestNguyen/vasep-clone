@@ -16,21 +16,19 @@
 //   setInterval(change, 1000);
 // };
 
+// --------------fixed navbar------------
 
-// --------------sticky navbar------------
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 250) {
+      document.getElementById("navbarTop").classList.add("fixed-top");
+      // add padding top to show content behind navbar
+    } else {
+      document.getElementById("navbarTop").classList.remove("fixed-top");
+      // remove padding top from body
+      document.body.style.paddingTop = "0";
+    }
+  });
+});
 
 
-// window.onscroll = function () {
-//   myFunction();
-// };
-
-// var navbar = document.querySelector("main-menu");
-// var sticky = navbar.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky");
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }

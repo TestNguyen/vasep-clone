@@ -1,18 +1,20 @@
 #footer {
-  background: #1f59a8;
-
   p {
-    color: $white;
+    color: #fff;
     line-height: 1.2rem;
     font-family: $robotoCondensed;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
+
+  @include footer-background($vn-footer: true);
+
+  #en & {
+    @include footer-background($vn-footer: false);
+  }
 }
 
 .box-footer {
-  padding-top: 3rem;
-
   .logo {
     width: 10rem;
     position: absolute;
@@ -30,8 +32,6 @@
 }
 
 .box-coppyright {
-  background-color: $primary;
-
   .copyright {
     color: #bdcaff;
     font: normal 1.3rem $robotoCondensed;
@@ -40,7 +40,18 @@
 }
 
 @media screen and (max-width: 992px) {
-  #footer .box-footer {
-    padding: 1.5rem !important;
+  #footer {
+    background-color: $primary !important;
+    background-image: none !important;
+
+    .box-footer {
+      padding: 1.5rem !important;
+    }
   }
 }
+
+
+// background: url(/static/_SV/img/bg-footer.png) bottom left no-repeat;
+// background-size: 100% 100%;
+// background-color: #eff8ff;
+// width: 100%;

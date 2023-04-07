@@ -5,10 +5,59 @@ $yellows: #ffd233;
 $white: #ffffff;
 $gray: #999999;
 $primary: #0a4595;
+$sub-menu-primary: #0b56aa;
+$vn-primary: #003987;
 $light-blue: #e7f2fb;
-// $blue: #124c9a;
 
 $robotoCondensed: "Roboto Condensed", sans-serif;
+
+.primary {
+  background-color: #003987;
+}
+
+.vn-primary {
+  background-color: $vn-primary;
+}
+
+.somany-txt__j1r {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.somany-txt__j2r {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding: 0 !important;
+}
+
+.somany-txt__j3r {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.img-full {
+  width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font: bold 1.6rem $robotoCondensed;
+  text-transform: uppercase;
+}
 
 @media only screen and (max-width: 1400px) {
   h1 {
